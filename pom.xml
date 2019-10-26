@@ -23,8 +23,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-<<<<<<< HEAD
-=======
 		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -35,7 +33,6 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
->>>>>>> a9af1c8f0d479821ed0ec76d987b8aff43698bcf
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
