@@ -36,7 +36,7 @@ public class UserController {
 		UserDto userDto = new UserDto();
 		BeanUtils.copyProperties(userDetails,  userDto);
 		
-		UserDto createdUser = userService.createUser(userDto);
+		UserDto createdUser = userService.createUser(userDto); //creates DB entry
 		BeanUtils.copyProperties(createdUser, returnValue);
 		
 		return returnValue;

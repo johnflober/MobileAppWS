@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import com.appsdeveloperblog.app.ws.service.UserService;
 import com.appsdeveloperblog.app.ws.shared.dto.UserDto;
 
+//Create DB entries
 @Service
 public class UserServiceImpl implements UserService {
 
